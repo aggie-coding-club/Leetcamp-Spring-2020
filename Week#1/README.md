@@ -10,5 +10,5 @@ Welcome to LeetCamp Week#1! Here is this week's problem set:
 
 **Challenge:**
 
-`Toeplitz Matrix:` For me, the trickiest part of this problem was just figuring otu a solution! Once you have it down, the coding is very fairly straightforward: https://leetcode.com/problems/toeplitz-matrix/description/
+`Toeplitz Matrix:` For me, the trickiest part of this problem was just figuring out a solution! Once you have it down, the coding is very fairly straightforward: https://leetcode.com/problems/toeplitz-matrix/description/
 
