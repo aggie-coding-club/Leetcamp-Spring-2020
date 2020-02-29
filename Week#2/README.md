@@ -6,7 +6,7 @@ Welcome to LeetCamp Week#2! Here is this week's problem set:
 
 `Implement strStr():` This is a very foundational problem everyone should know how to implement. Seems simple, but implementation can be a little tricky. Try drawing out all test cases if you get stuck. https://leetcode.com/problems/implement-strstr/
 
-`Ransom Note:` This is a fun problem to solve. (Hint: If you get stuck, look up maps and see if you can figure out how they would help).
+`Ransom Note:` This is a fun problem to solve. (Hint: If you get stuck, look up maps!)
 https://leetcode.com/problems/ransom-note/
 
 **Challenge:**
