@@ -1,14 +1,6 @@
 class Solution {
 public:
     
-    // Our custom sorting function 
-    static bool cmp(std::pair<int, int>& p1, std::pair<int, int>& p2)
-    {
-        // This function is called during sorting
-        // Compare numbers in the pair and return the smaller number to sort from least -> greatest
-        return p1.first < p2.first; 
-    }
-    
     vector<int> twoSum(vector<int>& nums, int target) {
         
         // Idea: Sort the array
@@ -26,7 +18,7 @@ public:
         }
         
         // 2. Sort vector
-        sort(v.begin(), v.end(), cmp); // cmp is our custom sorting function 
+        sort(v.begin(), v.end()); // cmp is our custom sorting function 
         
         // 3. Search vector
         int min = 0, max = v.size() - 1;
@@ -48,7 +40,6 @@ public:
                 return vector<int> {idx1, idx2};
             }
         }
-        
         return vector<int>(); // Return empty vector if no solution (not tested)
         
     }
